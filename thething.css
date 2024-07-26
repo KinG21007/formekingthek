@@ -1,0 +1,102 @@
+.canvas {
+    width: 100px;
+    height: 100px;
+    background-color: #3B5999;
+    margin: 0;
+    position: relative;
+    scale: 1;
+}
+
+.moon {
+    width: 20px;
+    height: 20px;
+    background-color:#FDFEFE;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.floorL {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 20px;
+    background-color:#8BC34A ;
+    border-radius: 100% 0 0 0;
+}
+
+.floorR {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 20px;
+    background-color:#8BC34A ;
+    border-radius: 0 100% 0 0;
+}
+
+.Chest {
+    position: absolute;
+    top: 55px;
+    left: 25px;
+    width: 50px;
+    height: 35px;
+    background-color: none ;
+    position: relative;
+  }
+
+.bodybottom {
+    position: absolute;
+    top: 13px;
+    width: 50px;
+    height: 22px;
+    border: 1px solid #D9C499;
+    box-sizing: border-box;
+    background-color: #C19A6B;
+}
+
+.bodytop {
+    position: absolute;
+    top: 0px;
+    width: 50px;
+    height: 13px;
+    border: 1px solid #D9C499;
+    border-radius: 70% 70% 0 0;
+    box-sizing: border-box;
+    background-color: #C19A6B;
+}
+
+.line1 {
+    position: absolute;
+    border-bottom: 1px solid #B57E4C;
+    border-top: 1px solid #B57E4C; 
+    top: 19px;
+    left: 1px;
+    width: 48px;
+    height: 6px;
+    box-sizing: border-box;
+}
+
+.line2 {
+    position: absolute;
+    border-bottom: 1px solid #B57E4C;
+    top: 29px;
+    left: 1px;
+    width: 48px;
+}
+
+.line3 {
+    position: absolute;
+    border-bottom: 1px solid #B57E4C;
+    top: 7px;
+    left: 1px;
+    width: 48px;
+}
+
+
+.lock {
+    position: absolute;
+
+}
